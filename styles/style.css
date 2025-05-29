@@ -143,8 +143,7 @@ ol {
   appearance: none;
 }
 
-
-.search-form__textfield:placeholder {
+.search-form__textfield::placeholder {
   font-size: 18px;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
@@ -175,24 +174,6 @@ ol {
   margin: 1px auto;
   background-color: currentColor;
 }
-
-  /*.search-form__pseudo-checkbox::after {*/
-/*  */
-/*  position: absolute;*/
-/*  display: block;*/
-/*  width: 19px;*/
-/*  height: 19px;*/
-/*  border: 1px solid currentColor;*/
-/*  background-color: transparent;*/
-/*}*/
-
-/*.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {*/
-/*  background-color: currentColor;*/
-/*  margin-top: 3px;*/
-/*  margin-left: 2px;*/
-/*  width: 15px;*/
-/*  height: 15px;*/
-/*}*/
 
 .search-form__submit-button {
   margin-top: 19px;
